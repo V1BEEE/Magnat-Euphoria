@@ -1,0 +1,452 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+
+*{
+    margin-top: 0.7rem;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(69, 9, 124);
+}
+.header{
+    background-color: white;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.search{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 32px;
+}
+.header img{
+    height: 50px;
+    width: 50px;
+}
+.search a:hover{
+    border-bottom: 1px solid rgb(69, 9, 124) ;
+}
+.container{
+height: 100%;
+    /* background-color: rgb(113, 10, 209); */
+    background-image: linear-gradient(to right top, rgb(96, 3, 150), rgb(157, 5, 187));
+}
+main{
+    margin-top: 2%;
+background-color: #fff;
+    width: 80%;
+    
+    margin-left: 10%;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    
+    margin-left: 2.5%;
+    background-color: #fff;
+    border: 1px solid rgb(99, 6, 128);
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    font-family: Pacifico;
+    
+
+}
+.new h2{
+    margin-top: 5%;
+    color: #422a05;
+    position: absolute;
+    align-items: center;
+    font-size: 60px;
+}
+.new img{
+position: relative;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    color: #422a05;
+    margin-left: 2.5%;
+    background-color: #fff;
+    border: 1px solid rgb(99, 6, 128);
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    font-family: Pacifico;
+    font-size: 32px;
+}
+.description h2{
+    font-size: 60px;
+}
+.description h4{
+    color: rgb(37, 5, 66);
+    width: 90%;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    color: #422a05;
+    margin-left: 2.5%;
+    background-color: #fff;
+    border: 1px solid rgb(99, 6, 128);
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    font-family: Pacifico;
+    font-size: 40px;
+    padding-bottom: 3%;
+}
+.features h2{
+    font-size: 60px;
+}
+.swiper{
+    width: 80%;
+}
+.slide1 img{
+    border-radius: 10%;
+}
+.slide2 img{
+    border-radius: 10%;
+}
+.slide3 img{
+    border-radius: 10%;
+}
+.slide4 img{
+    border-radius: 10%;
+}
+.slide4,.slide3,.slide2,.slide1 h3{
+    color:rgb(37, 5, 66) ;
+}
+.swiper .swiper-button-next::after,
+.swiper .swiper-button-prev::after{
+    width: 100%;
+    color:rgb(37, 5, 66) ;
+    font-size: 50px;
+}
+
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    color: rgb(37, 5, 66);
+    margin-left: 2.5%;
+    background-color: #fff;
+    border: 1px solid rgb(99, 6, 128);
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    font-family: Pacifico;
+    font-size: 40px;
+}
+.reviews h2{
+    color: #422a05;
+    font-size: 60px;
+}
+.feedback{
+    width: 90%;
+    margin-left: 5%;
+margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+background-color: #fff;
+border: 1px solid #422a05;
+border-radius: 10%;
+}
+.name{
+    padding-left: 4%;
+    text-align: left;
+}
+
+.name img{
+width: 5%;
+}
+.comment{
+    padding:0 2% 2% 2%;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 95%;
+    color: #422a05;
+    margin-left: 2.5%;
+    background-color: #fff;
+    border: 1px solid rgb(99, 6, 128);
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    font-family: Pacifico;
+    font-size: 40px;
+}
+.order h2{
+    font-size: 60px;
+}
+.order form{
+    background-color: #fff;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color:  rgb(37, 5, 66);
+    text-align: center;
+    align-items: center;
+    border: 1px solid #422a05;
+border-radius: 10%;
+
+}
+.order button{
+    width: 35%;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 50%;
+    background-color:rgb(37, 5, 66) ;
+    color:rgb(238, 217, 97) ;
+    font-size: 30px;
+    font-family: Pacifico;
+    
+}
+.order button:hover{
+    background-color: rgb(238, 217, 97);
+    color:rgb(37, 5, 66) ;
+}
+.order select:active, .order input:active, .order textarea:active{
+    border: 1px solid rgb(37, 5, 66);
+}
+.order SELECT{
+    width: 40%;
+    border: 1px solid #422a05;
+    font-size: 20px;
+    font-family: Pacifico;
+    outline: none;
+}
+.order input{
+    width: 40%;
+    font-size: 20px;
+    font-family: Pacifico;
+    border: 1px solid #422a05;
+    outline: none;
+}
+.order textarea{
+    width: 40%;
+    font-size: 15px;
+    font-family: Pacifico;
+    border: 1px solid #422a05;
+    outline: none;
+}
+.footer{
+    background-color: white;
+    color: white;
+    
+}
+.end{
+    padding: 3%;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 32px;
+}
+.end img{
+    height: 50px;
+    width: 50px;
+}
+.end a:hover{
+    border-bottom: 1px solid rgb(69, 9, 124) ;
+}
+
+/* адаптация */
+
+
+@media (max-width: 1268px){
+    .new img{
+        width: 90%;
+    }
+}
+@media (max-width: 1126px){
+    .search img, .end img{
+        width: 40px;
+        height: 40px;
+    }
+    .search{
+        font-size: 24px;
+    }
+    .description, .features, .reviews{
+        font-size: 28px;
+    }
+    .description img{
+        width: 90%;
+    }
+    .end{
+        font-size: 24px;
+    }
+
+}
+@media (max-width: 1014px){
+    .features img{
+        width: 80%;
+    }
+    .features{
+        font-size: 24px;
+    }
+    .order button{
+        font-size: 25px;
+    }
+}
+@media (max-width: 870px){
+    .new h2, .description h2, .features h2, .reviews h2, .order h2{
+        font-size: 45px;
+    }
+    .order{
+        font-size: 28px;
+    }
+    .search, .end{
+        width: 100%;
+        margin-left: 0;
+    }
+    .order button{
+        font-size: 20px;
+    }
+    .description, .features, .reviews{
+        font-size: 24px;
+    }
+    .swiper .swiper-button-next::after,
+.swiper .swiper-button-prev::after{
+    font-size: 40px;
+}
+}
+@media (max-width: 700px){
+    .search, .end{
+        font-size: 20px;
+    }
+    .search img, .end img{
+        width: 30px;
+        height: 30px;
+    }
+    .order button{
+        font-size: 16px;
+        padding: 5px;
+    }
+    .new h2, .description h2, .features h2, .reviews h2, .order h2{
+        font-size: 38px;
+    }
+    .description, .features, .reviews{
+        font-size: 20px;
+    }
+    .order{
+        font-size: 24px;
+    }
+    .order select, .order input{
+        font-size: 15px;
+    }
+    .swiper .swiper-button-next::after,
+.swiper .swiper-button-prev::after{
+    font-size: 35px;
+}
+}
+@media (max-width: 588px){
+    .search, .end{
+        font-size: 16px;
+    }
+    .search img, .end img{
+        width: 25px;
+        height: 25px;
+    }
+    .new h2, .description h2, .features h2, .reviews h2, .order h2{
+        font-size: 32px;
+    }
+    .description, .features, .reviews{
+        font-size: 18px;
+    }
+    .order button{
+        font-size: 13px;
+    }
+    .swiper .swiper-button-next::after,
+    .swiper .swiper-button-prev::after{
+        display: none;
+    }
+}
+@media (max-width: 480px){
+    .search, .end{
+        font-size: 14px;
+    }
+    .search img, .end img{
+        width: 20px;
+        height: 20px;
+    }
+    .new h2, .description h2, .features h2, .reviews h2, .order h2{
+        font-size: 28px;
+    }
+    .description, .features, .reviews{
+        font-size: 16px;
+    }
+    .order{
+        font-size: 20px;
+    }
+    .order select, .order input, .order textarea{
+        width: 50%;
+        font-size: 12px;
+    }
+    .order button{
+        font-size: 10px;
+    }
+    
+}
+@media (max-width: 411px){
+    .search, .end{
+        font-size: 12px;
+    }
+    .search img, .end img{
+        width: 16px;
+        height: 16px;
+    }
+    .new h2, .description h2, .features h2, .reviews h2, .order h2{
+        font-size: 24px;
+    }
+    .description, .features, .reviews{
+        font-size: 12px;
+    }
+    .order{
+        font-size: 18px;
+    }
+    .order select, .order input, .order textarea{
+        font-size: 10px;
+    }
+    .order button{
+        padding: 5px;
+        font-size: 8px;
+    }
+    
+}
+@media (max-width: 370px){
+    .search, .end{
+        font-size: 11px;
+    }
+    .order{
+        font-size: 15px;
+    }
+}
